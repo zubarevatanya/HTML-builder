@@ -19,4 +19,6 @@ function mergeStyles(stylesDir, target) {
     });
 }
 
+export default mergeStyles
+
 mergeStyles('./05-merge-styles/styles','./05-merge-styles/project-dist/bundle.css')

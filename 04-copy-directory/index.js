@@ -20,4 +20,8 @@ const copyDir = (sourceDir, targetDir) => {
     })
 }
 
+export default copyDir
+
 copyDir("./04-copy-directory/files", "./04-copy-directory/copy-files")
+
+
